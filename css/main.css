@@ -1,5 +1,6 @@
-@import url('reset.css');
+@import url('./css/reset.css');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Sora:wght@100..800&display=swap');
+
 
 /* Styguilde  */
 :root {
@@ -25,17 +26,47 @@ img {
 html {
     font-size: 62.5%;
 }
+h1,h2,h3,h4,h5,h6,p{
+  color: var(--gray-color-800);
+  font-family: 'Sora', sans-serif;
+  line-height: 120%;
+}
 
 h1 {
-    color: var(--gray-color-800);
-    font-family: 'Sora';
+ font-size: 5.6rem;
+ font-weight: 700;
+ line-height: 120%; 
 }
 
 h2{
-  
+  font-size: 4.5rem;
+  font-weight: 700;
+  line-height: 120%;
 }
 
+h4{
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 120;
+}
 
+h5{
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 120%;
+}
+h6{
+  font-size: 2.2rem;
+  font-weight: 600;
+  line-height: 120%;
+}
+p{
+  color: var(--gray-color-300);
+  font-size: 1.125rem;
+  font-weight: 400;
+  font-family: 'inter',sans-serif;
+  line: height 150%;
+}
 .container{
   width: 100px;
   max-width: 111rem;
