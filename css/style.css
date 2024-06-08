@@ -1,39 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100&family=Sora:wght@100..800&display=swap');
-:root{
-    --brand-colors-pink: #f67acb;
-    --gray-colors-50: #e6ebf2;
-    --gray-colors-100: #050110;
-    --gray-colors-200: #1c1d1f;
-    --gray-colors-300: #393c40;
-    --gray-colors-400: #5c6066;
-    --gray-colors-500: #efefef;
-    --gray-colors-800: #f7f8fa;
-    --white-colors-text: rgba(255, 255, 255, 0.7);
-    --white: #fff;
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Sora:wght@100..800&display=swap');
+
+/* Styguilde  */
+:root {
+  --brand-color-pink: #f67acb;
+  --gray-color-50: #e6ebf2;
+  --gray-color-100: #050110;
+  --gray-color-200: #1c1d1f;
+  --gray-color-300: #393c40;
+  --gray-color-400: #5c6066;
+  --gray-color-800: #f7f8fa;
+  --white-color-text: rgba(255, 255, 255, 0.7);
+  --white: #ffffff;
+  --gray: #acb4bf;
 }
-* {
-    margin: 0;
-    padding: 0;
-    border: none;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
-    font-size: 1.6rem;
-    font-family: inte ;
-  }
-  
-  /* Imagem responsiva */
-  img {
+
+/* Imagem responsiva */
+img {
     max-width: 100%;
     display: block;
-  }
+}
   
-  /* Define a fonte padrão como 10px - 1rem */
-  html {
+/* Define a fonte padrão como 10px - 1rem */
+html {
     font-size: 62.5%;
-  }
+}
+
+h1 {
+    color: var(--gray-color-800);
+    font-family: 'Sora';
+}
+
+h2{
   
-  /* Padronização dos botões */
-  button {
-    cursor: pointer;
-  }
+}
+
+
+.container{
+  width: 100px;
+  max-width: 111rem;
+  margin: 0 auto;
+  padding: 0 15px;
+}
